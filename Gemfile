@@ -4,9 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.3', :patchlevel=>'183'
 
 gem 'bigdecimal', '1.3.5'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
-gem 'rails', '6.0.3.5'
+gem 'rails', '6.0.4.7'
 # Boot rails apps faster
 gem 'bootsnap', '~> 1.7', '>= 1.7.7'
 # Use Passenger as the app server
