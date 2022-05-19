@@ -54,7 +54,7 @@ gem 'ckeditor','5.1.0'
 gem 'friendly_id', '~> 5.4.2'
 # Phrasing is a gem for live editing phrases (copy) on websites.
 gem 'phrasing', '~> 4.3', '>= 4.3.2'
-gem 'nokogiri','1.13.2'
+gem 'nokogiri','1.13.5'
 gem 'mysql2', '~> 0.5.0'
 gem 'jquery-fileupload-rails', '~> 0.4.7'
 # gem 'globalize', '~> 4.0.2'
