@@ -5,7 +5,7 @@ ruby '2.7.3', :patchlevel=>'183'
 
 gem 'bigdecimal', '1.3.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
-gem 'rails', '6.0.4.7'
+gem 'rails', '~>6.0.4.8'
 # Boot rails apps faster
 gem 'bootsnap', '~> 1.7', '>= 1.7.7'
 # Use Passenger as the app server
@@ -54,11 +54,11 @@ gem 'ckeditor','5.1.0'
 gem 'friendly_id', '~> 5.4.2'
 # Phrasing is a gem for live editing phrases (copy) on websites.
 gem 'phrasing', '~> 4.3', '>= 4.3.2'
-gem 'nokogiri','1.13.6'
+gem 'nokogiri','~>1.13.6'
 gem 'mysql2', '~> 0.5.0'
 gem 'jquery-fileupload-rails', '~> 0.4.7'
 # gem 'globalize', '~> 4.0.2'
-gem 'ransack'
+gem 'ransack','~>3.0.1'
 gem 'whenever', :require => false
 
 gem 'kaminari'
