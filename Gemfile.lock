@@ -247,6 +247,9 @@ GEM
     omniauth-oauth2 (1.7.3)
       oauth2 (>= 1.4, < 3)
       omniauth (>= 1.9, < 3)
+    omniauth-rails_csrf_protection (0.1.2)
+      actionpack (>= 4.2)
+      omniauth (>= 1.3.1)
     omniauth-weibo-oauth2 (0.5.2)
       omniauth (~> 1.5)
       omniauth-oauth2 (>= 1.4.0)
@@ -455,6 +458,7 @@ DEPENDENCIES
   omniauth
   omniauth-facebook
   omniauth-oauth2 (~> 1.7)
+  omniauth-rails_csrf_protection
   omniauth-weibo-oauth2
   paperclip (~> 6.1)
   phrasing (~> 4.3, >= 4.3.2)

@@ -66,6 +66,7 @@ gem 'acts-as-taggable-on', '5.0.0'
 gem 'mini_racer', '~> 0.4.0'
 
 gem 'omniauth'
+gem 'omniauth-rails_csrf_protection'
 gem 'omniauth-oauth2', '~> 1.7'
 gem 'omniauth-facebook'
 gem 'omniauth-weibo-oauth2'
